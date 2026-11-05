@@ -1,10 +1,7 @@
 <img src="banner.svg" alt="Animated beach banner" width="100%" />
 
-### Hi, I'm Xow 👋
+### Hi, I'm Xow
 
-Python developer exploring game dev and AI-powered automation.
+I mostly write Python these days. Right now I'm building a Roblox tower-climbing RPG and poking around with AI tools and automation.
 
-- 🐍 Mostly writing Python right now
-- 🎮 Building a Roblox tower-climbing action RPG
-- 🤖 Exploring AI tools and automation
-- 📫 Reach me at sumantamangop@gmail.com
+Reach me at sumantamangop@gmail.com.
