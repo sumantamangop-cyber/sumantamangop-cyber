@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD89B"/>
+      <stop offset="45%" stop-color="#FF9A8B"/>
+      <stop offset="75%" stop-color="#5B86C9"/>
+      <stop offset="100%" stop-color="#19547B"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF4C1" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFF4C1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6D7A1"/>
+      <stop offset="100%" stop-color="#E3B778"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="300" fill="url(#sky)"/>
+
+  <circle cx="1000" cy="80" r="90" fill="url(#sunGlow)"/>
+  <circle cx="1000" cy="80" r="38" fill="#FFE29A">
+    <animate attributeName="r" values="36;40;36" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0.85" fill="#ffffff">
+    <ellipse cx="180" cy="55" rx="38" ry="14"/>
+    <ellipse cx="210" cy="50" rx="28" ry="12"/>
+    <ellipse cx="150" cy="50" rx="24" ry="10"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="1200 0" dur="40s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.7" fill="#ffffff">
+    <ellipse cx="650" cy="40" rx="30" ry="11"/>
+    <ellipse cx="675" cy="36" rx="22" ry="9"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="55s" repeatCount="indefinite"/>
+  </g>
+
+  <path d="M0,190 Q50,210 100,190 T200,190 Q250,180 300,160 T400,160 Q450,150 500,160 T600,160 L600,300 L0,300 Z"
+        fill="#1B3A57" opacity="0.5"/>
+
+  <g>
+    <g>
+      <path d="M0,205 Q37.5,185 75,205 T150,205 T225,205 T300,205 T375,205 T450,205 T525,205 T600,205 T675,205 T750,205 T825,205 T900,205 T975,205 T1050,205 T1125,205 T1200,205 V300 H0 Z" fill="#1C6EA4" opacity="0.65"/>
+      <path d="M1200,205 Q1237.5,185 1275,205 T1350,205 T1425,205 T1500,205 T1575,205 T1650,205 T1725,205 T1800,205 T1875,205 T1950,205 T2025,205 T2100,205 T2175,205 T2250,205 T2325,205 T2400,205 V300 H1200 Z" fill="#1C6EA4" opacity="0.65"/>
+    </g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="7s" repeatCount="indefinite"/>
+  </g>
+
+  <g>
+    <g>
+      <path d="M0,230 Q30,210 60,230 T120,230 T180,230 T240,230 T300,230 T360,230 T420,230 T480,230 T540,230 T600,230 T660,230 T720,230 T780,230 T840,230 T900,230 T960,230 T1020,230 T1080,230 T1140,230 T1200,230 V300 H0 Z" fill="#3CA6D8"/>
+      <path d="M1200,230 Q1230,210 1260,230 T1320,230 T1380,230 T1440,230 T1500,230 T1560,230 T1620,230 T1680,230 T1740,230 T1800,230 T1860,230 T1920,230 T1980,230 T2040,230 T2100,230 T2160,230 T2220,230 T2280,230 T2340,230 T2400,230 V300 H1200 Z" fill="#3CA6D8"/>
+    </g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <g>
+    <g>
+      <path d="M0,250 Q22.5,238 45,250 T90,250 T135,250 T180,250 T225,250 T270,250 T315,250 T360,250 T405,250 T450,250 T495,250 T540,250 T585,250 T630,250 T675,250 T720,250 T765,250 T810,250 T855,250 T900,250 T945,250 T990,250 T1035,250 T1080,250 T1125,250 T1170,250 T1200,250 V300 H0 Z" fill="#D9F2FF" opacity="0.85"/>
+      <path d="M1200,250 Q1222.5,238 1245,250 T1290,250 T1335,250 T1380,250 T1425,250 T1470,250 T1515,250 T1560,250 T1605,250 T1650,250 T1695,250 T1740,250 T1785,250 T1830,250 T1875,250 T1920,250 T1965,250 T2010,250 T2055,250 T2100,250 T2145,250 T2190,250 T2235,250 T2280,250 T2325,250 T2370,250 T2400,250 V300 H1200 Z" fill="#D9F2FF" opacity="0.85"/>
+    </g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+
+  <rect x="0" y="262" width="1200" height="38" fill="url(#sand)"/>
+  <g fill="#C99A5B" opacity="0.5">
+    <circle cx="90" cy="280" r="2.5"/>
+    <circle cx="260" cy="288" r="2"/>
+    <circle cx="430" cy="276" r="2.5"/>
+    <circle cx="610" cy="286" r="2"/>
+    <circle cx="790" cy="278" r="2.5"/>
+    <circle cx="960" cy="288" r="2"/>
+    <circle cx="1120" cy="276" r="2.5"/>
+  </g>
+
+  <text x="40" y="270" font-family="Verdana, Geneva, sans-serif" font-size="34" font-weight="bold" fill="#ffffff" opacity="0">
+    Xow
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.4;1" dur="4s" fill="freeze"/>
+  </text>
+</svg>
